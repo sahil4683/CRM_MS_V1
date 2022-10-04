@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:include="template_header :: head_fragment(${page_title})">
+</head>
+
+<body>
+	 <div id="preloader"></div>
+	  <div id="wrapper" class="wrapper bg-ash">
+	  <div th:replace="template_nav_bar :: nav_bar_fragment"></div>
+	   <div class="dashboard-page-one">
+	  	 <div th:replace="template_side_bar :: side_bar_fragment"></div>
+	  	 <div class="dashboard-content-one">
+	  			
+	  			
+	  			
+	  			
+	  			
+	  			<div class="breadcrumbs-area">
+                    <h3>Admin Dashboard</h3>
+                    <ul>
+                        <li>
+                            <a href="index-2.html">Home</a>
+                        </li>
+                        <li>Admin</li>
+                    </ul>
+                </div>
+	  			
+	  			
+	  			
+	  			
+	  			
+	  			
+	  			<div class="row gutters-20">
+                    <div class="col-xl-3 col-sm-6 col-12">
+                        <div class="dashboard-summery-one mg-b-20">
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <div class="item-icon bg-light-green ">
+                                        <i class="flaticon-classmates text-green"></i>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="item-content">
+                                        <div class="item-title">Students</div>
+                                        <div class="item-number"><span class="counter" data-num="150000">1,50,000</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-12">
+                        <div class="dashboard-summery-one mg-b-20">
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <div class="item-icon bg-light-blue">
+                                        <i class="flaticon-multiple-users-silhouette text-blue"></i>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="item-content">
+                                        <div class="item-title">Teachers</div>
+                                        <div class="item-number"><span class="counter" data-num="2250">2,250</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-12">
+                        <div class="dashboard-summery-one mg-b-20">
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <div class="item-icon bg-light-yellow">
+                                        <i class="flaticon-couple text-orange"></i>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="item-content">
+                                        <div class="item-title">Parents</div>
+                                        <div class="item-number"><span class="counter" data-num="5690">5,690</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-12">
+                        <div class="dashboard-summery-one mg-b-20">
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <div class="item-icon bg-light-red">
+                                        <i class="flaticon-money text-red"></i>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="item-content">
+                                        <div class="item-title">Earnings</div>
+                                        <div class="item-number"><span>$</span><span class="counter" data-num="193000">1,93,000</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+	  			
+	  			
+	  			
+	  			
+	  			
+	  			
+	  			
+	  			
+	  			
+	  			
+	  			
+	  	 </div>
+	   </div>
+	  </div>
+	<div th:replace="template_header :: js_fragment"></div>
+</body>
+</html>

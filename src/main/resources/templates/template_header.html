@@ -1,0 +1,44 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+
+<head th:fragment="head_fragment (page_title)">
+	<title>[[${page_title}]]</title>
+	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>AKKHOR | Home 1</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="shortcut icon" type="image/x-icon" th:href="@{img/favicon.png}">
+    <link rel="stylesheet" th:href="@{css/normalize.css}">
+    <link rel="stylesheet" th:href="@{css/main.css}">
+    <link rel="stylesheet" th:href="@{css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{css/all.min.css}">
+    <link rel="stylesheet" th:href="@{fonts/flaticon.css}">
+    <link rel="stylesheet" th:href="@{css/fullcalendar.min.css}">
+    <link rel="stylesheet" th:href="@{css/animate.min.css}">
+    <link rel="stylesheet" th:href="@{style.css}">
+    
+    <script th:src="@{js/modernizr-3.6.0.min.js}"></script>
+    
+</head>
+
+
+
+<th:block th:fragment="js_fragment">
+	<script th:src="@{js/jquery-3.3.1.min.js}"></script>
+    <script th:src="@{js/plugins.js}"></script>
+    <script th:src="@{js/popper.min.js}"></script>
+    <script th:src="@{js/bootstrap.min.js}"></script>
+    <script th:src="@{js/jquery.counterup.min.js}"></script>
+    <script th:src="@{js/moment.min.js}"></script>
+    <script th:src="@{js/jquery.waypoints.min.js}"></script>
+    <script th:src="@{js/jquery.scrollUp.min.js}"></script>
+    <script th:src="@{js/fullcalendar.min.js}"></script>
+    <script th:src="@{js/Chart.min.js}"></script>
+    <script th:src="@{js/main.js}"></script>
+</th:block>
+
+
+</html>
