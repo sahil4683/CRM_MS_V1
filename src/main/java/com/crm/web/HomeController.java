@@ -9,10 +9,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-//@RequestMapping("")
 public class HomeController {
 	
-	@GetMapping("")
+	@GetMapping(value = {"","/home"})
 	public String index(Model model) {
 		model.addAttribute("page_title", "Home Page");
 		return "home";
