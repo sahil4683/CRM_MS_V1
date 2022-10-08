@@ -1,2 +1,0 @@
-2022-10-07 19:20:44.517  INFO 13008 --- [RMI TCP Connection(131)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-10-07 19:20:44.583  INFO 13008 --- [RMI TCP Connection(131)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
